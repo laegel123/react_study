@@ -7,6 +7,7 @@ import Context from "./contextSample/Context";
 import UseState from "./useReducerSample/UseState";
 import UseReducer from "./useReducerSample/UseReducer";
 import Extension from "./useReducerSample/Extension";
+import StyledComponentSample from "./styledComponentSample/StyledComponentSample";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     {/*<Context/>*/}
     {/*<UseState/>*/}
     {/*<UseReducer/>*/}
-    <Extension/>
+    {/*<Extension/>*/}
+    <StyledComponentSample/>
   </React.StrictMode>
 );
 
